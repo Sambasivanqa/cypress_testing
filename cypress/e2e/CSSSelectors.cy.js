@@ -1,3 +1,4 @@
+const cypress=require('cypress');
 describe('CSS Locators',()=>{
     it('css locators',()=>{
         cy.visit('http://www.automationpractice.pl/index.php')
